@@ -33,5 +33,43 @@ The goal of this application is to create social news, rating site, and discussi
 Users could be anyone who is interested in forming a community online, and interact with people with similar interests. Users can keep up to date with news, information, and ideas in their community. Companies and organizations can use Seenit to communicate with people and market products.
 
 ## System Enviroment
-## Functional Requirements  
+## Functional Requirements 
+#### Functions:
+
+##### 1. Log-in
++ Returing users must sign-in to perform the following activities: 
+	+ access personal chanel
+	+ add a new post
+	+ like or comment on someone else's posts
+	+ delete personal posts
+
+##### 2. Register for an account
++ There will be only one type of user; no admin account in this application. First time user must sign up for an account to perform those activities listed in log-in function
++ There will be a redirect link. User will be asked to fill out information such as first name, last name, email address, username, and password. 
++ No limitation. Users can set up multiple accounts and choose which one to log-in with depending on the personal chanel which users want to participate in. 
+
+##### 3. Create a personal channel
++ Users can create their own channels (similar to social media accounts). On their channel, users can be able to post a forum, delete a post, and check out subcribers. Each user can be able to create only one subchanel according to that account.
+
+##### 4. Search 
++ The users shall be able to search the database news, posts by typing in keywords which appear in title of the news and posts in a search box.
++ The users are also be able to search for a subchannel by entering name of that channel in a search box.
++ If there is no matching results, a message will be shown to the user to indicate that what they look for was not found. Otherwise, display all the posts or news which are related to the searched terms.
+
+##### 5. Commenting
+
+##### 6. Posting
+
+##### 7. Share a post
+
+##### 8. Follow a specific user
+
+##### 9. Display personal dashboard
+
+##### 10. Display other users' dashboard
+
+##### 11. Filter
+
+##### 12. Sort
+
 ## Non-functional Issues
