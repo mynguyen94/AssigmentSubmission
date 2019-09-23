@@ -40,6 +40,23 @@ The goal of this application is to create social news, rating site, and discussi
 Users could be anyone who is interested in forming a community online, and interact with people with similar interests. Users can keep up to date with news, information, and ideas in their community. Companies and organizations can use Seenit to communicate with people and market products.
 
 ## System Enviroment
+#### Structure of the system (graph based on 3-tiered architecture):
+*INSERT DRAWIO PICTURE*
+#### HW/SW used:
++ ReactJS
++ NGINX
++ Spring Boot
++ Windows/macOS
++ MySQL Workbench
++ Visual Studio Code
+#### RDBMS Used:
++ MySQL Version 5.6
+#### Application languages…(Java, XML, SQL, GUI Builder, Designer, GTK+…etc):
++ Java (with Spring Boot framework)
++ SQL (with MySQL)
++ JavaScript (with ReactJS)
+
+
 ## Functional Requirements
 ### How users will access the system: 
 ### Functions:
