@@ -62,7 +62,8 @@ Users could be anyone who is interested in forming a community online, and inter
 ### How users will interact with the system:
 The application provides the same functionality for all the users. Internet connection is required for any activity on the system. A user shall be able to access the system for read and write. A user can access the system home page freely. They shall be able to read daily news and posts from various websites without logging in. Users can also be able to make a search based on their particular interests. However, users must log-in into the system and have their credentials checked for other activities such as make a new post, comment on a post, share a post, create a channel, and follow another channel. First-time users must register for an account to perform the activities listed under log-in. 
 
-### Functions:
+### Describe each individual function, functional process and I/O:
+### Functions
 
 #### Log-in
 + Returning users must sign-in to perform the following activities: 
@@ -73,25 +74,40 @@ The application provides the same functionality for all the users. Internet conn
 	+ follow another channel
 	+ delete personal posts
 + Guests or unregistered users can only view posts
++ The system shall check the users' credentials. If the entered information is not matching with the information stored in database, an error message will be displayed; for instance, "ID or password is invalid." The users can either create a new account or reset password/username. Otherwise, the system gives users access when the information is matching.
 
 #### Register for an account
 + There will be only one type of user; no admin account in this application. First time user must sign up for an account to perform those activities listed in log-in function
 + There will be a redirect link. User will be asked to fill out some information such as first name, last name, email address, username, and password. 
 + No limitation. Users can set up multiple accounts and choose which one to log-in with depending on the personal channel which users want to participate in. 
++ The system shall check if entered username is already existed. The system shall keep asking the users to enter a username until the name is available. Then, the system shall add the users' personal information into database.
+
+#### Reset
++ The users shall be able to reset password or username when they forget it.
++ The system will send a verification code via the user's email.
++ The users must check the provided email for verification code, and then enter the code to the verification code box to reset username or password. Users must request for a new code if they do not see it.
++ The system shall verify the code. If the code is correct, the system will update the database after the users finish submitting new information.
 
 #### Create a channel 
 + Once users are signed in, users can create their own channels (similar to social media accounts). On their channel, users are able to manage the role of other users, make a new post, delete a post, check out subcribers, and display personal dashboard.
 + Users can create multiple channels (up to 4). By creating a channel, a user can get followers or subscribers who are interested in his/her activities.
++ The system shall save information of the sub-channel in database.
 
 #### Search 
 + The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users are also able to search for a channel by entering the name of that channel in a search box.
 + If there is no matching results, a message will be shown to the user to indicate that what they look for was not found. Otherwise, display all the posts or news which are related to the searched terms.
 
 #### Commenting
-
-#### Posting
++ The users shall be able to leave multiple comments on someone else's posts by click on the comment button, type what they want to say in the reply box, and hit enter.
++ Once a comment is submitted , the data will be saved to the associated subchannel. They can later check which posts they commented on the subchannel dashboard.
 
 #### Share a post
++ When the users are interested in a particular post, or they think a post is useful for other people, they can be able to share that post. To share a particular post, the users must click on the share button under a post. The shared post will be automatically added to their sub-channel, and others shall be able to view or share it.
++ By sharing a post, users can always go to their sub-channel to continue reading it if they do not have time to fishing reading the post at once.
+
+#### Add a post
+
+#### Delete
 
 #### Follow a specific user
 
@@ -102,7 +118,7 @@ The application provides the same functionality for all the users. Internet conn
 + Display their saved posts
 + Display their like/unlike posts
 
-#### Display other users' dashboard
+#### Display dashboard of other users
 + By clicking another user's profile, user can see the point/like, posts, etc of that specific user
 + User can't view other users' private information
 
