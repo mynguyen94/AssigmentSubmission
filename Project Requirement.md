@@ -109,11 +109,14 @@ There are many design principles when it comes to web design.
 ### Security
 ### Access Control
 + Anyone with internet can access the website
-+ A user will be able to view posts and channels without logging in
++ A user will be able to view posts/channels and search without logging in
 + A user must login to create posts, comments, or channels
 + A user cannot edit posts or comments that belong to a different user
 ### Performance
 + Fast response time while maintaining high throughput
++ The MySQL database will be optimized so queries don't take too long. The right data types and efficient SQL queries will make the database accesses faster and the database size smaller
++ ReactJS will be used to build the User Interface. ReactJS will allow the user to navigate through the application quickly by dynamically changing the current page instead of loading a whole new page from the server
++ NGINX can be used as a load balancer but it will require money for more resources like computers and databases. We won't use many resources during this semester, but this makes it  scalable for later
 ### Scalability
 + Able to add new functions and features while developing the app
-
++ NGINX will be used on the web server. NGINX can be used as a load balancer to distribute the work over many computers. Load balancing will help create high throughput and low response time by avoiding overloading a single computer. NGINX will allow more computing resources (CPU and memory) to be easily added to the existing system
