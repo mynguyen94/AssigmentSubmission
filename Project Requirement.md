@@ -107,7 +107,13 @@ The application provides the same functionality for all the users. Internet conn
 ### Graphical User Interface (GUI): 
 There are many design principles when it comes to web design. 
 ### Security
+### Access Control
++ Anyone with internet can access the website
++ A user will be able to view posts and channels without logging in
++ A user must login to create posts, comments, or channels
++ A user cannot edit posts or comments that belong to a different user
 ### Performance
++ Fast response time while maintaining high throughput
 ### Scalability
-### Accessibility
++ Able to add new functions and features while developing the app
 
