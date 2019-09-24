@@ -42,6 +42,7 @@ Users could be anyone who is interested in forming a community online, and inter
 ## System Enviroment
 #### Structure of the system (graph based on 3-tiered architecture):
 ![alt text](https://github.com/CS157A-Team24/AssigmentSubmission/blob/master/System_Environment_Diagram.png)
+
 #### HW/SW used:
 + ReactJS
 + NGINX
@@ -49,8 +50,10 @@ Users could be anyone who is interested in forming a community online, and inter
 + Windows/macOS
 + MySQL Workbench
 + Visual Studio Code
+  
 #### RDBMS Used:
 + MySQL Version 5.6
+  
 #### Application languages:
 + Java (with Spring Boot framework)
 + SQL (with MySQL)
@@ -145,6 +148,7 @@ The application provides the same functionality for all the users. Internet conn
 ## Non-functional Issues
 ### Graphical User Interface (GUI): 
 There are many design principles when it comes to web design. For our website, we will use seven most popular principles, which are Visual Hierachy, Divine Proportions, Hick's Law, Fitt's Law, Rule of Thirds, Gestalt Design Laws, and White Space and Clean Design.
+
 + Visual Hierachy: Certain parts of our website will be more important than others. We want to make those parts easily been seen and noticed by users. For examples the account button, the scrolling posts, the filters, and the search box.
 + Divine Proportions: The layout, the size of each components should follow the golden ratio which is 1.618. For example, if the layout width is 1200px, the width of the content area should be 742px.
 + Hick's Law: "Hick’s Law says that with every additional choice increases the time required to take a decision." So, we plan to minimum the options for dropdown menu buttons. This will encourage new users tring new functions. 
@@ -152,20 +156,24 @@ There are many design principles when it comes to web design. For our website, w
 + Rule of Thirds: Since our website will allow users to upload pictures. The size of a picture needs to follow the rule of thirds to make it more interesting. 
 + Gestalt Design Laws: Filter buttons, sorting buttons will be grouped together. Buttons will have consistent sizes. 
 + White Space and Clean Design: Website without white/blank space is hard to navigate. So, we will use white space to divide the components, boxes that have different functions. 
+  
 ### Security
 + User accounts need to be highly protected. We don't want their personal information leaked or hacked. 
 + Passwords won't be store in blank text, it will be hashed. 
 + We will use https protocol for our web server to make sure the connection between users and server are encrypted. 
+  
 ### Access Control
 + Anyone with internet can access the website
 + A user will be able to view posts/channels and search without logging in
 + A user must login to create posts, comments, or channels
 + A user cannot edit posts or comments that belong to a different user
+  
 ### Performance
 + Fast response time while maintaining high throughput
 + The MySQL database will be optimized so queries don't take too long. The right data types and efficient SQL queries will make the database accesses faster and the database size smaller
 + ReactJS will be used to build the User Interface. ReactJS will allow the user to navigate through the application quickly by dynamically changing the current page instead of loading a whole new page from the server
 + NGINX can be used as a load balancer but it will require money for more resources like computers and databases. We won't use many resources during this semester, but this makes it  scalable for later
+  
 ### Scalability
 + Able to add new functions and features while developing the app
 + NGINX will be used on the web server. NGINX can be used as a load balancer to distribute the work over many computers. Load balancing will help create high throughput and low response time by avoiding overloading a single computer. NGINX will allow more computing resources (CPU and memory) to be easily added to the existing system
