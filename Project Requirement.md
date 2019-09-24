@@ -91,7 +91,7 @@ The application provides the same functionality for all the users. Internet conn
 #### Create a channel 
 + Once users are signed in, users can create their own channels (similar to social media accounts). On their channel, users are able to manage the role of other users, make a new post, delete a post, check out subcribers, and display personal dashboard.
 + Users can create multiple channels (up to 4). By creating a channel, a user can get followers or subscribers who are interested in his/her activities.
-+ The system shall save information of the sub-channel in database.
++ The system shall save information of the channel in database.
 
 #### Search 
 + The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users are also able to search for a channel by entering the name of that channel in a search box.
@@ -99,11 +99,11 @@ The application provides the same functionality for all the users. Internet conn
 
 #### Commenting
 + The users shall be able to leave multiple comments on someone else's posts by click on the comment button, type what they want to say in the reply box, and hit enter.
-+ Once a comment is submitted , the data will be saved to the associated subchannel. They can later check which posts they commented on the subchannel dashboard.
++ Once a comment is submitted , the data will be saved to the associated channel. They can later check which posts they commented on the channel dashboard.
 
 #### Share a post
-+ When the users are interested in a particular post, or they think a post is useful for other people, they can be able to share that post. To share a particular post, the users must click on the share button under a post. The shared post will be automatically added to their sub-channel, and others shall be able to view or share it.
-+ By sharing a post, users can always go to their sub-channel to continue reading it if they do not have time to fishing reading the post at once.
++ When the users are interested in a particular post, or they think a post is useful for other people, they can be able to share that post. To share a particular post, the users must click on the share button under a post. The shared post will be automatically added to their channel, and others shall be able to view or share it.
++ By sharing a post, users can always go to their channel to continue reading it if they do not have time to fishing reading the post at once.
 
 #### Add a post
 + The users shall be able to write their own post on the channel. They can make a post by typing in the new post box and pressing the post button to submit. Users can attach pictures, video, or link to their post. The created posts will be visible on the channel.
@@ -114,7 +114,7 @@ The application provides the same functionality for all the users. Internet conn
 + The users shall also be able to delete their posts. Similar to delete comments, users can delete a post by clicking the delete button under each post, and confirming that they are sure about the deletion.
 + The system will remove the data permanently from database after deletions are completed.
 
-#### Follow a specific user
+#### Follow a specific channel
 + The users shall be able to follow a particular channel that they are interested in. They will get updates on the new activities of that channel. The users can subscribe for a particular channel by clicking the follow button on the channel page. 
 + The system shall add the changes to database to keep track of the channels that a user is following.
 
