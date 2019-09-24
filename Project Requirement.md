@@ -60,7 +60,7 @@ Users could be anyone who is interested in forming a community online, and inter
 ## Functional Requirements
 
 ### How users will interact with the system:
-The application provides the same functionality for all the users. Internet connection is required for any activity on the system. A user shall be able to access the system for read and write. A user can access the system home page freely. They shall be able to read daily news and posts from various websites without logging in. Users can also be able to make a search based on their particular interests. However, users must log-in into the system and have their credentials checked for other activities such as make a new post, comment on a post, share a post, create a sub-channel, and follow another channel. Especially, first-time users must register for an account to perform the activities listed above under log-in. 
+The application provides the same functionality for all the users. Internet connection is required for any activity on the system. A user shall be able to access the system for read and write. A user can access the system home page freely. They shall be able to read daily news and posts from various websites without logging in. Users can also be able to make a search based on their particular interests. However, users must log-in into the system and have their credentials checked for other activities such as make a new post, comment on a post, share a post, create a channel, and follow another channel. First-time users must register for an account to perform the activities listed under log-in. 
 
 ### Functions:
 
@@ -70,21 +70,21 @@ The application provides the same functionality for all the users. Internet conn
 	+ add a new post
 	+ like or comment on someone else's posts
 	+ share a post
-	+ follow another subchannel
+	+ follow another channel
 	+ delete personal posts
-+ Guests or unregister users can only view posts
++ Guests or unregistered users can only view posts
 
 #### Register for an account
 + There will be only one type of user; no admin account in this application. First time user must sign up for an account to perform those activities listed in log-in function
 + There will be a redirect link. User will be asked to fill out some information such as first name, last name, email address, username, and password. 
 + No limitation. Users can set up multiple accounts and choose which one to log-in with depending on the personal channel which users want to participate in. 
 
-#### Create a sub-channel 
-+ Once users are signed in, users can create their own channels (similar to social media accounts). On their channel, users can be able to manage role of other users, make a new post, delete a post, check out subcribers, and display personal dashboard.
-+ Users can create multiple sub-channels (up to 4). By creating a subchannel, a user can get followers or subscribers who are interested in his/her activities.
+#### Create a channel 
++ Once users are signed in, users can create their own channels (similar to social media accounts). On their channel, users are able to manage the role of other users, make a new post, delete a post, check out subcribers, and display personal dashboard.
++ Users can create multiple channels (up to 4). By creating a channel, a user can get followers or subscribers who are interested in his/her activities.
 
 #### Search 
-+ The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users can also be able to search for a subchannel by entering the name of that channel in a search box.
++ The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users are also able to search for a channel by entering the name of that channel in a search box.
 + If there is no matching results, a message will be shown to the user to indicate that what they look for was not found. Otherwise, display all the posts or news which are related to the searched terms.
 
 #### Commenting
@@ -118,13 +118,13 @@ The application provides the same functionality for all the users. Internet conn
 ## Non-functional Issues
 ### Graphical User Interface (GUI): 
 There are many design principles when it comes to web design. For our website, we will use seven most popular principles, which are Visual Hierachy, Divine Proportions, Hick's Law, Fitt's Law, Rule of Thirds, Gestalt Design Laws, and White Space and Clean Design.
-+ Visual Hierachy: Certain parts of our website will be more important than others. We want to make those parts easily been seen and noticed by users. For examples the account button, the scrolling posts, the fillers, and the search box.
++ Visual Hierachy: Certain parts of our website will be more important than others. We want to make those parts easily been seen and noticed by users. For examples the account button, the scrolling posts, the filters, and the search box.
 + Divine Proportions: The layout, the size of each components should follow the golden ratio which is 1.618. For example, if the layout width is 1200px, the width of the content area should be 742px.
 + Hick's Law: "Hick’s Law says that with every additional choice increases the time required to take a decision." So, we plan to minimum the options for dropdown menu buttons. This will encourage new users tring new functions. 
 + Fitt't Law: Button's size needs to follow a set of rules. The size of the button is proportion to its using-frequency.
 + Rule of Thirds: Since our website will allow users to upload pictures. The size of a picture needs to follow the rule of thirds to make it more interesting. 
 + Gestalt Design Laws: Filter buttons, sorting buttons will be grouped together. Buttons will have consistent sizes. 
-+ White Space and Clean Design: Website without white/blank space is hard to navigate. So, we will use white space to divine the components, boxes that have different functions. 
++ White Space and Clean Design: Website without white/blank space is hard to navigate. So, we will use white space to divide the components, boxes that have different functions. 
 ### Security
 + User accounts need to be highly protected. We don't want their personal information leaked or hacked. 
 + Passwords won't be store in blank text, it will be hashed. 
