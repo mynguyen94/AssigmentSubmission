@@ -106,10 +106,17 @@ The application provides the same functionality for all the users. Internet conn
 + By sharing a post, users can always go to their sub-channel to continue reading it if they do not have time to fishing reading the post at once.
 
 #### Add a post
++ The users shall be able to write their own post on the channel. They can make a post by typing in the new post box and pressing the post button to submit. Users can attach pictures, video, or link to their post. The created posts will be visible on the channel.
++ The system shall save all the contents in the database after posting is finished.
 
 #### Delete
++ The users shall be able to delete their comments on a particular post. They can go back to the channel to check the location of the comments. Users can delete a comment by clicking the delete button under each comment, and confirming that they are sure about the deletion.
++ The users shall also be able to delete their posts. Similar to delete comments, users can delete a post by clicking the delete button under each post, and confirming that they are sure about the deletion.
++ The system will remove the data permanently from database after deletions are completed.
 
 #### Follow a specific user
++ The users shall be able to follow a particular channel that they are interested in. They will get updates on the new activities of that channel. The users can subscribe for a particular channel by clicking the follow button on the channel page. 
++ The system shall add the changes to database to keep track of the channels that a user is following.
 
 #### Display personal dashboard
 + User can see how many posts they have opened
