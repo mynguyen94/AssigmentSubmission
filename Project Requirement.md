@@ -60,7 +60,7 @@ Users could be anyone who is interested in forming a community online, and inter
 ## Functional Requirements
 
 ### How users will interact with the system:
-The application provides the same functionality for all the users. Internet connection is required for any activity on the system. A user shall be able to access the system for read and write. A user can access the system home page freely. They shall be able to read daily news and posts from various websites without logging in. Users can also be able to make a search based on their particular interests. However, users must log-in into the system and have their credentials checked for other activities such as make a new post, comment on a post, share a post, create a sub-channel, and follow another channel. First-time users must register for an account to perform the activities listed under log-in. 
+The application provides the same functionality for all the users. Internet connection is required for any activity on the system. A user shall be able to access the system for read and write. A user can access the system home page freely. They shall be able to read daily news and posts from various websites without logging in. Users can also be able to make a search based on their particular interests. However, users must log-in into the system and have their credentials checked for other activities such as make a new post, comment on a post, share a post, create a channel, and follow another channel. First-time users must register for an account to perform the activities listed under log-in. 
 
 ### Functions:
 
@@ -70,7 +70,7 @@ The application provides the same functionality for all the users. Internet conn
 	+ add a new post
 	+ like or comment on someone else's posts
 	+ share a post
-	+ follow another subchannel
+	+ follow another channel
 	+ delete personal posts
 + Guests or unregistered users can only view posts
 
@@ -79,12 +79,12 @@ The application provides the same functionality for all the users. Internet conn
 + There will be a redirect link. User will be asked to fill out some information such as first name, last name, email address, username, and password. 
 + No limitation. Users can set up multiple accounts and choose which one to log-in with depending on the personal channel which users want to participate in. 
 
-#### Create a sub-channel 
+#### Create a channel 
 + Once users are signed in, users can create their own channels (similar to social media accounts). On their channel, users are able to manage the role of other users, make a new post, delete a post, check out subcribers, and display personal dashboard.
-+ Users can create multiple sub-channels (up to 4). By creating a subchannel, a user can get followers or subscribers who are interested in his/her activities.
++ Users can create multiple channels (up to 4). By creating a channel, a user can get followers or subscribers who are interested in his/her activities.
 
 #### Search 
-+ The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users are also able to search for a subchannel by entering the name of that channel in a search box.
++ The users shall be able to search for daily news and posts by typing in keywords which appear in titles or headlines in search box. The users are also able to search for a channel by entering the name of that channel in a search box.
 + If there is no matching results, a message will be shown to the user to indicate that what they look for was not found. Otherwise, display all the posts or news which are related to the searched terms.
 
 #### Commenting
