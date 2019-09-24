@@ -41,7 +41,7 @@ Users could be anyone who is interested in forming a community online, and inter
 
 ## System Enviroment
 #### Structure of the system (graph based on 3-tiered architecture):
-*INSERT DRAWIO PICTURE*
+![alt text](https://github.com/CS157A-Team24/AssigmentSubmission/blob/master/System_Environment_Diagram.png)
 #### HW/SW used:
 + ReactJS
 + NGINX
@@ -103,13 +103,17 @@ The application provides the same functionality for all the users. Internet conn
 + Display their like/unlike posts
 
 #### Display other users' dashboard
-By clicking another user's profile, user can see the point/like, posts, etc of that specific user
++ By clicking another user's profile, user can see the point/like, posts, etc of that specific user
++ User can't view other users' private information
 
 #### Filter
-Using to filter the post by date 
++ Using to filter the post by date
++ Including now, today, week, month, year
++ User can active the function simply by clicking the filter button and selecting from a drop down menu
 
 #### Sort
-Using to sort the post by top, new and hot
++ Using to sort the post by top, new and hot
++ User can active the function simply by clicking the sort button and selecting from a drop down menu
 
 ## Non-functional Issues
 ### Graphical User Interface (GUI): 
