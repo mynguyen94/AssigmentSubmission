@@ -83,9 +83,9 @@ The application provides the same functionality for all the users. Internet conn
 + The system shall check if entered username is already existed. The system shall keep asking the users to enter a username until the name is available. Then, the system shall add the users' personal information into database.
 
 #### Reset
-+ The users shall be able to reset password or username when they forget it.
++ The users shall be able to reset password when they forget it.
 + The system will send a verification code via the user's email.
-+ The users must check the provided email for verification code, and then enter the code to the verification code box to reset username or password. Users must request for a new code if they do not see it.
++ The users must check the provided email for verification code, and then enter the code to the verification code box to reset password. Users must request for a new code if they do not see it.
 + The system shall verify the code. If the code is correct, the system will update the database after the users finish submitting new information.
 
 #### Create a channel 
@@ -114,21 +114,25 @@ The application provides the same functionality for all the users. Internet conn
 #### Display personal dashboard
 + User can see how many posts they have opened
 + Display how many point/upvote they have
-+ Notifying user if someone replies to his/her comment
 + Display their saved posts
 + Display their like/unlike posts
++ Get notifications if someone replies to his/her comment
 
 #### Display dashboard of other users
 + By clicking another user's profile, user can see the point/like, posts, etc of that specific user
++ When clicking a user's profile, a modal layer will pop up. To exit, simply click outside of the modal.
 + User can't view other users' private information
 
 #### Filter
-+ Using to filter the post by date
-+ Including now, today, week, month, year
++ Using to filter the posts by date
++ Including today, week, month, year
 + User can active the function simply by clicking the filter button and selecting from a drop down menu
 
 #### Sort
-+ Using to sort the post by top, new and hot
++ Using to sort the posts by Top, New and Hot
++ Sort by Top will sort the posts by the points/upvotes they have.
++ Sort by New will sort the posts by date
++ Sort by Hot will show the posts that have most attention recently
 + User can active the function simply by clicking the sort button and selecting from a drop down menu
 
 ## Non-functional Issues
